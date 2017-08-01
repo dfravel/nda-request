@@ -1,0 +1,14 @@
+{
+	"name": "dfravel/ndarequest",
+	"description": "This plugin confirms access to the Exari NDA Interview Request Form",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Dave Fravel",
+			"homepage": "davefravel.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

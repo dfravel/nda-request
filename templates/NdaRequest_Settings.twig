@@ -1,0 +1,26 @@
+{#
+/**
+ * NDA Request plugin for Craft CMS
+ *
+ * NDA Request Settings.twig
+ *
+ * @author    Dave Fravel
+ * @copyright Copyright (c) 2017 Dave Fravel
+ * @link      davefravel.com
+ * @package   NdaRequest
+ * @since     0.1.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "ndarequest/css/NdaRequest_Style.css" %}
+{% includeJsResource "ndarequest/js/NdaRequest_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting', 
+    value: settings['someSetting']})
+}}
